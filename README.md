@@ -5,7 +5,7 @@ This project repository is based on the materials from the Udacity's [Deep Reinf
 ## Project Introduction
 This project will train an agent to navigate (and collect bananas) in a large, square world.
 
-![Banana-gif](banana-gif.gif)
+![Banana-gif](Banana-gif.gif)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
