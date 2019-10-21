@@ -35,5 +35,5 @@ RANDOM_SEED = 40
 
 ![dataviz](dataviz.png)
 
-### Future improvments
+### Future improvements
 In order to improve the performarce of our agent it would be great to implement a [Double DQN](https://arxiv.org/abs/1509.06461), [Dueling DQN](https://arxiv.org/abs/1511.06581) and/or a [Prioritized experience replay](https://arxiv.org/abs/1511.05952).
