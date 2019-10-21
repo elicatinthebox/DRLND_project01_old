@@ -34,6 +34,7 @@ RANDOM_SEED = 40
 ### Results
 
 ![log](log.png)
+
 ![dataviz](dataviz.png)
 
 My solution is able to reach an average reward (over 100 episodes) of at least +13 in around 590 episodes, meeting the project's specifications.
