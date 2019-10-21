@@ -20,11 +20,18 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ## Getting Started
 - Configure a Python 3.6 / PyTorch 0.4.0 environment according to the requirements described in the [Udacity repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) and clone the Udacity's repository.
-- Download the Unity environment from one of the links below.
+- Install [Jupyter Notebook](https://jupyter.org/)
+
+- Download the Unity environment from one of the links below:
 * [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 * [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 * [Windows (32-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 * [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+1. Move the Banana file to the project folder
+2. Open the project folder inside a terminal
+3. Run the Jupyter notebook named `Navigation.ipynb` using the command _jupyter notebook_
+4  Run the cells inside the Jupyter Notebook named `Navigation.ipynb`
 
 ## Required packages
 
