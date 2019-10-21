@@ -33,7 +33,10 @@ RANDOM_SEED = 40
 
 ### Results
 
+![log](log.png)
 ![dataviz](dataviz.png)
+
+My solution is able to reach an average reward (over 100 episodes) of at least +13 in around 590 episodes, meeting the project's specifications.
 
 ### Future improvements
 In order to improve the performarce of our agent it would be great to implement a [Double DQN](https://arxiv.org/abs/1509.06461), [Dueling DQN](https://arxiv.org/abs/1511.06581) and/or a [Prioritized experience replay](https://arxiv.org/abs/1511.05952).
