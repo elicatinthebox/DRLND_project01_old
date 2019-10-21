@@ -41,4 +41,4 @@ The task is episodic, and in order to solve the environment, the agent must get 
 * *pytorch*
 * *unityagents*
 
-To know more about this project please take a look at the `report.md` file included in this repository.
+To know more about this project please take a look at the `REPORT.md` file included in this repository.
