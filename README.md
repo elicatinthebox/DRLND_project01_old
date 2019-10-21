@@ -28,7 +28,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 * [Windows (32-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 * [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-1. Move the Banana file to the project folder
+1. Move the Banana file according to your OS to the project folder
 2. Open the project folder inside a terminal
 3. Run the Jupyter notebook named `Navigation.ipynb` using the command _jupyter notebook_
 4  Run the cells inside the Jupyter Notebook named `Navigation.ipynb`
