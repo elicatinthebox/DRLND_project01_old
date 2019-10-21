@@ -23,13 +23,29 @@ All code used for this project is contained in the **Jupyter Notebook** named _N
 ## The deep Q-network (DQN) algorithm
 For this project is used the [deep Q-network (DQN)](https://deepmind.com/research/dqn/), a value based method which combines reinforcement learning with [Q Learning](https://en.wikipedia.org/wiki/Q-learning) and a deep neural network aimed to learn a Q-table approximation.
 
+### Model architecture
+
+```
+INPUT =  37 nodes (as many as the states)
+FC Layer 1 =  64 nodes
+RELU activation
+FC Layer 2 = 64 nodes
+RELU activation
+Output = 4 nodes (as many as the actions)
+```
+
+
 ### Parameters
 
 ```
-STATE_SIZE = 37        
-ACTION_SIZE = 4         
-RANDOM_SEED = 40        
+BUFFER_SIZE = int(1e5)  # replay buffer size
+BATCH_SIZE = 64         # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR = 5e-4               # learning rate
+UPDATE_EVERY = 4        # how often to update the network     
 ```
+  
 
 ### Results
 
